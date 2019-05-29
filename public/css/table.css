@@ -1,0 +1,89 @@
+/**
+*
+* Style sheet for that quotes table
+*
+*/
+
+#quotes table 
+{
+    width:80%; 
+    margin-left:10%; 
+    margin-right:10%;
+}
+
+
+#quotes tr
+{
+    border-bottom : 1px inset #E6E6FA;
+    font-size:14px;
+}
+#quotes tr:first-child:hover {
+    background-color: white;
+}
+#quotes tr:hover
+{
+    background-color:#F0F8FF;
+    cursor: default;
+}
+#quote tr:hover
+{
+    background-color:#FFFFFF;
+    cursor: default;
+}
+#quotes th
+{
+    background-color:white;
+    color: gray;
+    font-size: 12px;
+    text-align: right;
+}
+#quotes .title
+{
+     text-align: left;   
+}
+
+#quotes .symbol
+{
+    width: 70%;
+    text-align: left;
+    display:block;
+    font-size: 10px;
+    color:gray;
+}
+#quotes .name
+{
+    width: 58%;
+    text-align: left;
+    display:block;
+    font-size: 16px;
+    color: #1E90FF; 
+}
+#quotes .low
+{
+    text-align: right;
+    color: red;
+    width: 14%;
+}
+#quotes .high
+{
+    text-align: right;
+    width: 14%;
+    color:green;
+}
+#quotes .price
+{
+    text-align: right;
+    width:14%;
+}
+#buy
+{
+    margin-right:10%;
+    float: right;
+}
+#buy label
+{
+    font-size:14px;
+    color: green;
+    font-style: normal;
+}
+
